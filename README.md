@@ -17,9 +17,9 @@ Adding repository to your pom.xml:
 Adding plugin to your pom.xml:
 ```xml
 <plugin>
-  <groupId>me.catcoder</groupId>
-  <artifactId>artifact-publisher-plugin</artifactId>
-  <version>1.2</version>
+  <groupId>com.github.CatCoderr</groupId>
+  <artifactId>ArtifactPublisher</artifactId>
+  <version>v1.2</version>
   <executions>
       <execution>
           <phase>package</phase>
