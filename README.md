@@ -4,22 +4,16 @@ Publish build (jar) artifact as VK message
 
 ## Configuring
 
-Adding repository to your pom.xml:
-```xml
-<repositories>
-	<repository>
-		   <id>jitpack.io</id>
-		   <url>https://jitpack.io</url>
-	 </repository>
-</repositories>
-```
+Clone this sources and run 'install' goal.
+Before installing use this following steps:
+
 
 Adding plugin to your pom.xml:
 ```xml
 <plugin>
-  <groupId>com.github.CatCoderr</groupId>
-  <artifactId>ArtifactPublisher</artifactId>
-  <version>v1.2</version>
+  <groupId>me.catcoder</groupId>
+  <artifactId>artifact-publisher-plugin</artifactId>
+  <version>1.2</version>
   <executions>
       <execution>
           <phase>package</phase>
