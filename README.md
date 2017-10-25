@@ -4,14 +4,11 @@ Publish build (jar) artifact as VK message
 
 ## Configuring
 
-Clone this sources and run 'install' goal.
-Before installing use this following steps:
 
-
-Adding plugin to your pom.xml:
+Adding plugin to your pom.xml in build process:
 ```xml
 <plugin>
-  <groupId>me.catcoder</groupId>
+  <groupId>io.github.catcoderr</groupId>
   <artifactId>artifact-publisher-plugin</artifactId>
   <version>1.2</version>
   <executions>
