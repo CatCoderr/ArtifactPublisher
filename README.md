@@ -1,4 +1,5 @@
 # ArtifactPublisher
+[![Maven Central](https://img.shields.io/maven-central/v/io.github.catcoderr/artifact-publisher-plugin.svg)]()  
 Publish build (jar) artifact as VK message
 
 
