@@ -14,7 +14,7 @@
     <version>1.2</version>
     <name>Artifact Publisher Maven Mojo</name>
 
-    <url>https://github.com/CatCoderr/ProjectPublisher</url>
+    <url>https://github.com/CatCoderr/ArtifactPublisher</url>
 
     <licenses>
         <license>
@@ -47,9 +47,9 @@
     </developers>
 
     <scm>
-        <url>https://github.com/CatCoderr/ArtifactPublisher</url>
-        <connection>scm:git:git://github.com/CatCoderr/ArtifactPublisher.git</connection>
+        <connection>scm:git:git@github.com:CatCoderr/ArtifactPublisher.git</connection>
         <developerConnection>scm:git:git@github.com:CatCoderr/ArtifactPublisher.git</developerConnection>
+        <url>git@github.com:CatCoderr/ArtifactPublisher.git</url>
     </scm>
 
     <build>
