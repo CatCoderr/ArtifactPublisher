@@ -5,7 +5,6 @@ Publish build (jar) artifact as VK message
 
 ## Configuring
 
-
 Adding plugin to your pom.xml in build process:
 ```xml
 <plugin>
@@ -30,7 +29,7 @@ Adding plugin to your pom.xml in build process:
 
 #### Important!
 
-To secure your access token, your must configure maven-jar-plugin settings to the following:
+To secure your access token, you have to set your maven-jar-plugin settings to the following:
 ```xml
 <plugin>
     <groupId>org.apache.maven.plugins</groupId>
